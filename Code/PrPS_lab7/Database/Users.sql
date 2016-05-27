@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS 'Users'
+;
+
+CREATE TABLE 'Users'
+(
+	'Login' TEXT NOT NULL PRIMARY KEY,
+	'Password' TEXT
+)
+;
